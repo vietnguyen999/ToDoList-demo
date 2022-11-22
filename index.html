@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+
+    <div class="title">
+      <h2>To Do List</h2> 
+    </div>
+    <div class="todo-list">
+        <div class="list-head">
+        <input type="text" class="en-list" placeholder="Create New Item">
+        <button class="add-list" type="button">Add</button>
+    </div>
+    <div class="select">
+        <select name="todos" class="filter-todo">
+            <option value="all">ALL</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+   <div class="todotasks"></div>
+    <script src="./app.js"></script>
+</body>
+</html>
